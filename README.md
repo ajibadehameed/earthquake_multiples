@@ -8,14 +8,8 @@
 ###  Step 1: Download and Extract Data
 
 - Download from [link](https://www.arcgis.com/home/item.html?id=4aa77ca426364ed9b2b621680f4ea28b)
-- Open the `SmallMultiples.ppkx` project file in ArcGIS Pro
 
-### Step 2: Set Up the Project
-
-1. Open ArcGIS Pro → Sign in using MOOC credentials.
-2. Save a copy of the project as `Earthquake_Multiples.aprx`.
-
-### Step 3: Symbolize the Earthquakes
+### Step 2: Symbolize the Earthquakes
 
 1. Use **Graduated Symbols** on the `Quakes6PlusSince1898` layer.
 2. Field: `Mag` (Magnitude)
@@ -33,7 +27,7 @@
 
 ---
 
-###  Step 4: Explore Layout & Apply Range Filters
+###  Step 3: Explore Layout & Apply Range Filters
 
 1. Switch to the `Small Multiple Layout` tab.
 2. Map frames have been pre-added for each magnitude class.
@@ -44,7 +38,7 @@
 
 ---
 
-### Step 5: Add Text Labels
+### Step 4: Add Text Labels
 
 1. Use `Insert` → `Rectangle Text` to label each map frame.
 2. Example labels:
@@ -55,7 +49,7 @@
 
 ---
 
-### Step 6: Export the Layout
+### Step 5: Export the Layout
 
 1. Go to `Share` → `Export Layout`
 2. Export as PDF or PNG to the `exports/` folder.
